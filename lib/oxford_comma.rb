@@ -4,7 +4,7 @@ def oxford_comma(array)
    return array
 else 
   x = 0
-    while x < array.length -1
+    while x < array.length -1 do
   
       array[x] << ", "
       x += 1 
