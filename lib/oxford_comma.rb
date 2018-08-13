@@ -14,6 +14,6 @@ else
     array[array.length - 1] = "and ".join(array[array.length - 1])
 end
  
-return array
+array.each {|x| 
  
 end
