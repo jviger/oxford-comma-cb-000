@@ -15,7 +15,7 @@ else
 end
  
 list = ""
-array.each {|x| list = list.join(x)}
+array.each {|x| list << x}
 
 return list
  
